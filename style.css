@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    background-image: url(fondo.jpg);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: #ffae00;
+    margin: 0 15px;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.hero {
+    background-image: url('fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    padding: 100px 20px;
+}
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+.hero p {
+    font-size: 1.2em;
+}
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+.product {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.product-item {
+    background: #000000;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+}
+.product-item img {
+    width: 100%;
+    height: auto;
+}
+.product-item h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+.product-item p {
+    padding: 0 10px;
+    color: #ffffff;
+}
+.product-item button {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.product-item button:hover {
+    background-color: #ffae00;
+}
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+  
